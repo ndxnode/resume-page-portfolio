@@ -11,17 +11,24 @@ header {
     padding: 1rem;
 }
 
-nav ul {
+.nav-list {
+    display: flex;
     list-style: none;
     padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
+.nav-list li {
+    margin-right: 1rem;
 }
 
-nav a {
+.nav-list li:first-child {
+    margin-right: auto;
+}
+
+.nav-list a {
     color: #fff;
     text-decoration: none;
 }
@@ -30,4 +37,9 @@ main {
     padding: 2rem;
 }
 
-/* Add more styles as needed */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
